@@ -1,12 +1,10 @@
-import { ErrorComponent, GitHubBanner, Refine, WelcomePage } from "@refinedev/core";
-import { RefineKbar, RefineKbarProvider } from "@refinedev/kbar";
+import { ErrorComponent, Refine } from "@refinedev/core";
 
 import { notificationProvider, RefineThemes, ThemedLayoutV2 } from "@refinedev/mantine";
 import { MantineInferencer } from "@refinedev/inferencer/mantine";
 
 import {
   ColorScheme,
-  ColorSchemeProvider,
   Global,
   MantineProvider,
 } from "@mantine/core";
