@@ -24,9 +24,6 @@ function App() {
     getInitialValueInEffect: true,
   });
 
-  const toggleColorScheme = (value?: ColorScheme) =>
-    setColorScheme(value || (colorScheme === "dark" ? "light" : "dark"));
-
   return (
     <MantineProvider
             theme={RefineThemes.Blue}
